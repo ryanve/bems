@@ -1,0 +1,34 @@
+{
+  "name": "bems",
+  "version": "0.0.0",
+  "description": "BEM utils",
+  "author": "Ryan Van Etten",
+  "license": "MIT",
+  "main": "bems.js",
+  "scripts": {
+    "lint": "eslint bems.js",
+    "sass": "node-sass example.scss example.css",
+    "test": "npm run lint && npm run sass"
+  },
+  "homepage": "https://github.com/ryanve/bems",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/bems.git"
+  },
+  "keywords": [
+    "bem",
+    "css",
+    "scss",
+    "sass",
+    "mixins",
+    "javascript",
+    "selector",
+    "convention"
+  ],
+  "bugs": {
+    "url": "https://github.com/ryanve/bems/issues"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0"
+  }
+}

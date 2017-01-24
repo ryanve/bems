@@ -1,0 +1,24 @@
+@mixin bems-b($b) {
+  .#{$b},
+  [class^="#{$b}__"],
+  [class*=" #{$b}__"],
+  [class^="#{$b}--"],
+  [class*=" #{$b}--"] {
+    @content;
+  }
+}
+
+@mixin bems-e($e) {
+  [class*="__#{$e}--"],
+  [class*="__#{$e} "],
+  [class$="__#{$e}"] {
+    @content;
+  }
+}
+
+@mixin bems-m($m) {
+  [class*="--#{$m} "],
+  [class$="--#{$m}"] {
+    @content;
+  }
+}

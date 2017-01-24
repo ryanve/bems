@@ -1,0 +1,15 @@
+.block,
+[class^="block__"],
+[class*=" block__"],
+[class^="block--"],
+[class*=" block--"] {
+  color: blue; }
+
+[class*="__element--"],
+[class*="__element "],
+[class$="__element"] {
+  color: teal; }
+
+[class*="--modifier "],
+[class$="--modifier"] {
+  color: gold; }

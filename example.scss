@@ -1,0 +1,13 @@
+@import 'bems';
+
+@include bems-b(block) {
+  color: blue;
+}
+
+@include bems-e(element) {
+  color: teal;
+}
+
+@include bems-m(modifier) {
+  color: gold;
+}
