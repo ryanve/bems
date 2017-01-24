@@ -1,7 +1,7 @@
 {
   "name": "bems",
   "version": "0.0.0",
-  "description": "BEM utils",
+  "description": "BEM selector tools",
   "author": "Ryan Van Etten",
   "license": "MIT",
   "main": "bems.js",
