@@ -1,4 +1,4 @@
-# bems
+# [bems](https://www.npmjs.com/package/bems)
 
 ```
 npm install bems --save
