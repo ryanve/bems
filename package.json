@@ -29,6 +29,7 @@
     "url": "https://github.com/ryanve/bems/issues"
   },
   "devDependencies": {
-    "eslint": "^3.14.0"
+    "eslint": "^3.14.0",
+    "node-sass": "^4.3.0"
   }
 }
