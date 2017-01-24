@@ -7,7 +7,7 @@
   "main": "bems.js",
   "scripts": {
     "lint": "eslint bems.js",
-    "sass": "node-sass example.scss example.css",
+    "sass": "node-sass test.scss test.css",
     "test": "npm run lint && npm run sass"
   },
   "homepage": "https://github.com/ryanve/bems",
