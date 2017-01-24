@@ -3,18 +3,13 @@ code { background: HotPink }
 :link, :visited { color: Indigo }
 
 * { box-sizing: border-box; }
-html { font: 1.125em/2 sans-serif; }
-body { width: 100%; margin: auto; padding: 1em; }
 a { font-weight: bold; }
-
-.huge {
-  font-size: 4em;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
-.display--block {
-  display: block;
+html { font: 1.125em/1.5 sans-serif; }
+body {
+  width: 100%;
+  margin: auto;
+  padding: 1em;
+  word-wrap: break-word;
 }
 
 code {
@@ -22,4 +17,11 @@ code {
   padding: .125em .25em;
   border-radius: .5em;
   font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4em;
+  line-height: 1;
+  text-transform: uppercase;
 }
